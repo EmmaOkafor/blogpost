@@ -13,7 +13,7 @@ export default function TopBar() {
           <div class="col-md-6 col-sm-6">
             <Navbar />
           </div>
-          <div class="col-md-2 col-sm-2">
+          <div class="col-md-2 col-sm-2 padding-top-10">
             <Profile />
           </div>
 

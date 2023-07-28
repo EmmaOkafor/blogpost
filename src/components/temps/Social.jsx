@@ -1,20 +1,24 @@
 import React from 'react'
-
+import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import { Link } from "react-router-dom";
 export default function Social() {
   return (
-    <div>
+    <div className='social'>
         <ul className='center'>
             <li>
-                <i>fb</i>
+                <Link><FacebookRoundedIcon /></Link>
             </li>
             <li>
-                <i>fb</i>
+                <Link><GitHubIcon /></Link>
             </li>
             <li>
-                <i>fb</i>
+                <Link><LinkedInIcon /></Link>
             </li>
             <li>
-                <i>fb</i>
+                <Link><YouTubeIcon /></Link>
             </li>
         </ul>
     </div>

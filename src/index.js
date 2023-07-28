@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import Create from './components/blog/Create';
-import View from './components/blog/View';
-import List from './components/blog/List';
+import Write from './components/blog/Write';
+import About from './components/blog/About';
+import Contact from './components/blog/Contact';
+import Login from './components/blog/Login';
+import Register from './components/blog/Register';
+import Logout from './components/blog/Logout';
 import App from './components/App';
 
 import {
@@ -16,16 +19,28 @@ const router = createBrowserRouter([
   element: <App />,
 },
 {
-  path: "/",
-  element: <Create />,
+  path: "/about",
+  element: <About />,
 },
 {
-  path: "/view-blog",
-  element: <View />,
+  path: "/contact",
+  element: <Contact />,
 },
 {
-  path: "/list-blog",
-  element: <List />,
+  path: "/write",
+  element: <Write />,
+},
+{
+  path: "/logout",
+  element: <Logout />,
+},
+{
+  path: "/login",
+  element: <Login />,
+},
+{
+  path: "/register",
+  element: <Register />,
 }
   
 ]);

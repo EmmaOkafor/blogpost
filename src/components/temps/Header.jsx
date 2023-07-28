@@ -2,6 +2,7 @@ import React from "react";
 import Heading from "./Heading";
 import TopBar from "./TopBar";
 
+
 // import HighlightIcon from '@mui/icons-material/Highlight';
 
 function Header() {
@@ -18,12 +19,6 @@ function Header() {
         </div>
 
       </header>
-
-        <div className="row">
-          <div className="col header-img">
-            <img src="/images/bg.jpg" alt="header" />
-          </div>
-        </div>
     </>
   );
 }

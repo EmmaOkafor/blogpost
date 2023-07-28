@@ -1,7 +1,7 @@
 import Header from "../temps/Header";
 import Footer from "../temps/Footer";
 
-function List(){
+function Contact(){
   return(
 
     <div>
@@ -14,4 +14,4 @@ function List(){
 
 }
 
-export default List;
+export default Contact;

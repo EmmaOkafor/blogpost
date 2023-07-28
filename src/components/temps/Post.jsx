@@ -5,9 +5,9 @@ export default function Post(props) {
     <div>
         <div className='home-post '>
             <img src={props.img} className='' alt='profile' /> 
-            <p>Tech</p>
-            <h4 class="center padding-30">{props.title}</h4>
-            <p>21-07-2023</p>
+            <p className='padding-top-20'>{props.catName}</p>
+            <h4 class="center padding-10">{props.title}</h4>
+            <p>{props.postDate}</p>
             <p class="justify">{props.content}</p> 
           </div>
     </div>
