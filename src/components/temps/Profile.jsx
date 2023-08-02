@@ -16,7 +16,7 @@ export default function Profile() {
             <Link class="nav-link rounded-5" id="contact-tab2" to="/login"  data-bs-toggle="tab" role="tab" aria-selected="false">Login</Link>
           </li>
           <li class="nav-item" role="presentation">
-            <Link class="nav-link rounded-5" id="contact-tab2" to="/register" data-bs-toggle="tab" role="tab" aria-selected="false">Register</Link>
+            <Link class="nav-link rounded-5" id="contact-tab2" to="/register" data-bs-toggle="tab" role="tab" aria-selected="false">Signup</Link>
           </li>
         </ul> :
         <ul>

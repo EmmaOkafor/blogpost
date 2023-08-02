@@ -7,7 +7,6 @@ import TopBar from "./TopBar";
 
 function Header() {
   return (
-    <>
       <header>
 
         <TopBar />
@@ -19,7 +18,6 @@ function Header() {
         </div>
 
       </header>
-    </>
   );
 }
 
