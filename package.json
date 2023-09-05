@@ -1,6 +1,6 @@
 {
   "homepage": "https://emmanueldavidokafor.github.io/blogpost",
-  "name": "blogpost",
+  "name": "blogPost",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
