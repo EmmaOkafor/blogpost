@@ -1,18 +1,39 @@
-import React from "react";
-import Header from "./temps/Header"
-import Footer from "./temps/Footer"
-import Banner from "./temps/Banner"
+import 'bootstrap/dist/css/bootstrap.css';
+import './app.css'
+import {Route, Routes } from 'react-router-dom';
 import Home from "./blog/Home"
+import Login from "./blog/Login"
+import Register from "./blog/Register"
+import Layout from "./blog/Layout"
+import Contact from "./blog/Contact"
+import About from "./blog/About"
+import Write from "./blog/Write"
+import SinglePost from './blog/SinglePost';
+import {UserContextProvider} from "./temps/UserContext"
+import { useContext } from 'react';
+import { Context } from '../context/Context';
 
 function App() {
+  const { user } = useContext(Context);
   return (
-    <>
-    <Header />
-    <Banner img="/images/bg.jpg" />
-    <Home />    
-    <Footer />
-
-    </>
+      <UserContextProvider>
+        <Routes>
+        <Route path="/" element={<Layout />}>
+        <Route index element={<Home />} />
+        {user && (
+          <>
+          <Route path="/write" element={<Write />} />
+          <Route path="/post/:id" element={<SinglePost />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/about" element={<About />} />
+          </>
+        )}
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Register />} />
+        </Route>
+      </Routes>
+      </UserContextProvider>
+ 
   );
 }
 
