@@ -1,10 +1,8 @@
 import React from 'react'
-import Header from '../temps/Header';
-import Footer from '../temps/Footer';
+
 function Login() {
   return (
     <div>
-        <Header />
         <div className='wrapper login row'>
               <div className="col-sm-12">
                 <form action="" method="post">
@@ -15,7 +13,6 @@ function Login() {
                 </form>
               </div>
         </div>
-        <Footer />
     </div>
   )
 }

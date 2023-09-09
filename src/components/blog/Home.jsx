@@ -14,7 +14,7 @@ export default function Home() {
           <div className='col-md-6 col-sm-6'  >
             <div className='margin-top-30'>
               <Post 
-                img="/images/bg.jpg"
+                img="images/bg.jpg"
                 catName="Music"
                 title="DEVELOP THE HABIT"
                 content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consequuntur, magni distinctio velit eius earum pariatur vero. 
@@ -27,7 +27,7 @@ export default function Home() {
           <div className='col-md-6 col-sm-6 ' >
             <div className='margin-top-30'>
               <Post 
-                img="/images/bg.jpg"
+                img="images/bg.jpg"
                 catName="Technology"
                 title="DEVELOP THE HABIT"
                 content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consequuntur, magni distinctio velit eius earum pariatur vero. 
@@ -40,7 +40,7 @@ export default function Home() {
           <div className='col-md-6 col-sm-6 ' >
             <div className='margin-top-30'>
               <Post 
-                img="/images/bg.jpg"
+                img="images/bg.jpg"
                 catName="E-commerce"
                 title="DEVELOP THE HABIT"
                 content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consequuntur, magni distinctio velit eius earum pariatur vero. 
@@ -53,7 +53,7 @@ export default function Home() {
           <div className='col-md-6 col-sm-6 ' >
             <div className='margin-top-30'>
               <Post 
-                img="/images/bg.jpg"
+                img="images/bg.jpg"
                 catName="Programming"
                 title="DEVELOP THE HABIT"
                 content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consequuntur, magni distinctio velit eius earum pariatur vero. 
@@ -66,7 +66,7 @@ export default function Home() {
           <div className='col-md-6 col-sm-6 ' >
             <div className='margin-top-30'>
               <Post 
-                img="/images/bg.jpg"
+                img="images/2.png"
                 catName="Learning"
                 title="DEVELOP THE HABIT"
                 content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consequuntur, magni distinctio velit eius earum pariatur vero. 
@@ -79,7 +79,7 @@ export default function Home() {
           <div className='col-md-6 col-sm-6 ' >
             <div className='margin-top-30'>
               <Post 
-                img="/images/bg.jpg"
+                img="images/bg.jpg"
                 catName="Music"
                 title="SING LIKE A PRO"
                 content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consequuntur, magni distinctio velit eius earum pariatur vero. 

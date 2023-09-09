@@ -1,12 +1,9 @@
-import Header from "../temps/Header";
-import Footer from "../temps/Footer";
 import Banner from "../temps/Banner";
 
 function About(){
   return(
 
     <div>
-      <Header />
       <div className="width-80">
       <Banner img="images/pic.jpg" />
         <div className="row w3-margin w3-center w3-white">
@@ -37,7 +34,6 @@ function About(){
           </div>
         </div>
       </div>
-      <Footer />
 
     </div>
   )

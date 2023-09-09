@@ -1,17 +1,11 @@
-// SinglePost.jsx
 import React from "react";
 import { Link} from "react-router-dom";
-import Header from "../temps/Header";
 import SideBar from "../temps/SideBar";
 
 export default function SinglePost() {
-  
-  
-
 
   return (
     <div className="wrapper">
-    <Header />
         <div className="singlePost">
           <div className="singlePostWrapper">
             

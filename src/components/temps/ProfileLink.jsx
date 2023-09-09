@@ -2,7 +2,7 @@ import React from 'react'
 import SearchIcon from '@mui/icons-material/Search';
 import Person2Icon from '@mui/icons-material/Person2';
 import { Link } from "react-router-dom";
-export default function Profile() {
+export default function ProfileLink() {
 
   const isLogged = false;
 

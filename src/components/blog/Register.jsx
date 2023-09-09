@@ -1,11 +1,8 @@
 import React from 'react';
-import Header from '../temps/Header';
-import Footer from '../temps/Footer';
 
 function Register() {
   return (
     <div>
-        <Header />
           <div className='wrapper register row '>
           <form class="" action="" method="post">
           <h5><strong>SIGNUP</strong></h5>
@@ -20,7 +17,6 @@ function Register() {
           <input type="submit" class="btn btn-bdy hover-grad" name="" value="SIGNUP" />
         </form>
         </div>
-        <Footer />
     </div>
   )
 }

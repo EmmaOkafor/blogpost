@@ -1,11 +1,8 @@
 import React from 'react';
-import Header from "../temps/Header";
-import Footer from "../temps/Footer";
 
 function Contact(){
   return(
     <div>
-      <Header />
         <div className="wrapper contact row">
             <form action="" method="post">
             <h5><strong>Contact Us</strong></h5>
@@ -20,7 +17,6 @@ function Contact(){
             <input type="submit" className="btn" name="Send" value="SEND MESSAGE" />
             </form>
         </div>
-      <Footer />
 
     </div>
   )

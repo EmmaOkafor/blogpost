@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from "./Navbar";
 import Social from "./Social";
-import Profile from "./Profile";
+import ProfileLink from "./ProfileLink";
 export default function TopBar() {
   return (
     <>
@@ -14,7 +14,7 @@ export default function TopBar() {
             <Navbar />
           </div>
           <div class="col-md-2 col-sm-2 padding-top-10">
-            <Profile />
+            <ProfileLink />
           </div>
 
         </div>
