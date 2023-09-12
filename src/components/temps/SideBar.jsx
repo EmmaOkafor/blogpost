@@ -8,7 +8,7 @@ export default function SideBar() {
     <div className='row side-bar'>
         <div className='col-md-12'>
             <h4>About Me</h4>
-                <img src="/images/2.png" className='' alt='profile' />
+                <img src={process.env.PUBLIC_URL + '/images/2.png'} alt="Background" />
                 <p class="justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consequuntur, magni distinctio velit eius earum pariatur vero. 
                     Dolores ducimus consectetur quos et sapiente nobis voluptatum eum. Error nobis possimus perspiciatis.
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.

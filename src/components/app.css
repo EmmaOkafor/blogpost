@@ -2,17 +2,23 @@
 
   /* TAGS */
   html {font-family: "Montserrat", sans-serif;}
-  html, body{ height: 100% ;}
+
+  html, body { 
+    height: 100vh ;
+  }
+
   body{ 
     position:absolute; 
     right: 0; 
     left: 0; 
     max-width: 100%;
   }
+
   header{
     min-height:30px;
     background-color: #ffffff;
   }
+
   header h1 {color: #fff; font-family: "McLaren", cursive; font-weight: 200; }
   h1, h2, h3, h4, h5{ 
     text-align: center;
@@ -75,6 +81,8 @@
     min-height: 90%;
  
   }
+
+  /* HEADER  */
   .top-bar{
     display: flex;
     background: white;
@@ -97,6 +105,7 @@
     margin-bottom: 50px;
 
   }
+  /* HOME  */
 
   .home{
     background: #ffffff;
@@ -107,6 +116,8 @@
     width: 100%;
     height: 200px;
   }
+
+  /* ABOUT  */
   
   .about{
     flex: 9;
@@ -114,14 +125,18 @@
   }
 
   .write img{
-    height: 400px;
+    height: 300px;
     object-fit: cover;
   }
 
   img{
+    width: 100%;
+    height: 200px;
     object-fit: cover;
   }
 
+
+  /* SINGLE POST  */
   .singlePost{
     display: flex;
     flex: 9;

@@ -4,7 +4,7 @@ function About(){
   return(
 
     <div>
-      <div className="width-80">
+      <div className="about">
       <Banner img="images/pic.jpg" />
         <div className="row w3-margin w3-center w3-white">
           <div className="col-md-12 col-sm-12 w3-padding  w3-margin-top">

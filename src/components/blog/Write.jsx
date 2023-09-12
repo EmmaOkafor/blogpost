@@ -1,31 +1,21 @@
-import Post from "../temps/Post";
-const today = new Date().toLocaleDateString();
+import Banner from "../temps/Banner";
+
 function CreateArea(props) {
     
   return (
     <div>
       <div className="wrapper">
-        <div className="row width-80 write">
-          <div className="col-12">
-              <Post 
-                img="./images/bg.jpg"
-                catName="Music"
-                title="DEVELOP THE HABIT"
-                content="Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus consequuntur, magni distinctio velit eius earum pariatur vero. 
-                          Dolores ducimus consectetur quos et sapiente nobis voluptatum eum. Error nobis possimus perspiciatis."
-                postDate={today}
-              />
-          </div>
-          <div className="col-md-12">
+        <div className="row write">
+        <Banner img="images/pic.jpg" />
+          <div className="col-md-6">
           <form className="create-note">
         
-        <div>
-            <input type="file" value=""/>
-            <input type="text" value=""/>
-            <input type="text" value=""/>
-            <textarea  cols={30} rows={5}></textarea>           
-            <button type="submit">Upload</button>      
-        </div>
+          <div>
+              <input className="form-control" type="file" />
+              <input className="form-control" type="text" placeholder="Title"/>
+              <textarea className="form-control" cols={30} rows={5} placeholder="Content"></textarea>           
+              <button className="btn btn-primary" type="submit">Upload</button>      
+          </div>
     </form>
           </div>
         </div>

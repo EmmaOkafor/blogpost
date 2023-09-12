@@ -14,7 +14,7 @@ function Register() {
               <input class="form-control" type="password" name="conpass" value="" placeholder="confirm password" />
             </div>
           </div>
-          <input type="submit" class="btn btn-bdy hover-grad" name="" value="SIGNUP" />
+          <input type="submit" class="btn btn-primary" name="" value="SIGNUP" />
         </form>
         </div>
     </div>
